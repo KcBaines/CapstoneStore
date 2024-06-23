@@ -1,0 +1,14 @@
+@import url("https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&family=Forum&family=Handlee&family=Playwrite+NZ:wght@100..400&display=swap");
+
+.contact-box {
+  width: 100%;
+  height: 25em;
+  padding-top: 8em;
+  text-align: center;
+  color: white;
+  font-family: "Forum", serif;
+}
+
+.contact-box a {
+  color: white;
+}

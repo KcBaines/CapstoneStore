@@ -1,0 +1,65 @@
+@import url("https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&family=Forum&family=Handlee&family=Playwrite+NZ:wght@100..400&display=swap");
+
+.main-container {
+  display: flex;
+  justify-content: center; /* Horizontally center children */
+  align-items: center; /* Vertically center children */
+  height: 100vh; /* Full viewport height */
+}
+
+h2 {
+  font-family: "Forum", serif;
+}
+
+.login-box {
+  padding: 1em;
+  background-color: rgba(0, 0, 0, 0.438);
+  width: 26em;
+  height: 31em;
+}
+
+button {
+  padding: 8px;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  border-radius: 3px;
+}
+
+button {
+  margin-top: 10px;
+  background-color: rgba(7, 35, 162, 0.568);
+  color: white;
+  cursor: pointer;
+}
+
+button:disabled {
+  background-color: #ccc;
+  cursor: not-allowed;
+}
+
+input {
+  padding: 10px 20px;
+  border: 1px solid black;
+  border-radius: 10px;
+}
+
+button {
+  padding: 10px 20px;
+  border: 1px solid transparent;
+  border-radius: 10px;
+  background-color: rgba(204, 204, 204, 0.713);
+  cursor: pointer;
+  font-family: "Handlee", cursive;
+}
+
+button:hover {
+  background-color: rgba(7, 35, 162, 0.568);
+}
+
+.error-message {
+  color: white;
+}
+
+.login {
+  color: white;
+}

@@ -1,0 +1,11 @@
+@import url("https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&family=Forum&family=Handlee&family=Playwrite+NZ:wght@100..400&display=swap");
+
+.home-welcome {
+  color: white;
+  text-align: center;
+  font-family: "Forum", serif;
+}
+
+p {
+  font-family: "Playwrite NZ", cursive;
+}

@@ -1,0 +1,77 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&family=Forum&family=Handlee&family=Playwrite+NZ:wght@100..400&display=swap');
+
+.form-field {
+  display: flex;
+  margin-bottom: 15px;
+}
+
+.form-label {
+  width: 150px; 
+  text-align: right; 
+  padding-right: 10px; 
+}
+
+.error {
+  color: red;
+}
+
+.register {
+  color: white;
+}
+
+label {
+  color: white;
+}
+
+.register-box {
+  padding-top: 1em;
+  padding-left: 1em;
+  padding-right: 1em;
+  margin-left: 30em;
+  margin-top: 1em;
+  background-color: rgba(0, 0, 0, 0.438);
+  width: 26em;
+  height: 33em;
+}
+
+button {
+  padding: 8px;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  border-radius: 10%;
+}
+
+button {
+  margin-top: 10px;
+  background-color: rgba(7, 35, 162, 0.568);
+  color: white;
+  cursor: pointer;
+}
+
+button:disabled {
+  background-color: #ccc;
+  cursor: not-allowed;
+}
+
+input {
+  padding: 10px 20px;
+  border: 1px solid black;
+  border-radius: 10px;
+}
+
+button {
+  padding: 10px 20px;
+  border: 1px solid transparent;
+  border-radius: 10px;
+  background-color: rgba(204, 204, 204, 0.713);
+  cursor: pointer;
+  font-family: "Handlee", cursive;
+}
+
+button:hover {
+  background-color: rgba(7, 35, 162, 0.568);
+}
+
+.message {
+  color: white;
+}

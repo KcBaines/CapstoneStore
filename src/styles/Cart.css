@@ -1,0 +1,22 @@
+@import url("https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&family=Forum&family=Handlee&family=Playwrite+NZ:wght@100..400&display=swap");
+
+.cart-box {
+  color: white;
+  display: flex;
+  flex-direction: column;
+  align-items: center; /* Center items horizontally */
+  justify-content: flex-start; /* Align items to the top of the container */
+  padding: 20px;
+  font-family: "Forum", serif;
+}
+
+.cart-items-container {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.cart-item {
+  width: 30em;
+  text-align: center;
+}
